@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   get 'home/main'
 
   get 'home/index'
+  
   root 'home#index'
   
   get 'home/about'
